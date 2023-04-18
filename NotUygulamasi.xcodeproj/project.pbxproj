@@ -16,6 +16,18 @@
 		119FBC2929EEE9A40041694B /* NotUygulamasiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC2829EEE9A40041694B /* NotUygulamasiTests.swift */; };
 		119FBC3329EEE9A40041694B /* NotUygulamasiUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC3229EEE9A40041694B /* NotUygulamasiUITests.swift */; };
 		119FBC3529EEE9A40041694B /* NotUygulamasiUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC3429EEE9A40041694B /* NotUygulamasiUITestsLaunchTests.swift */; };
+		119FBC4229EEEAF70041694B /* NotHucreTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC4129EEEAF70041694B /* NotHucreTableViewCell.swift */; };
+		119FBC4429EEEC3B0041694B /* NotEkleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC4329EEEC3B0041694B /* NotEkleViewController.swift */; };
+		119FBC4629EEEC500041694B /* NotDetayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC4529EEEC500041694B /* NotDetayViewController.swift */; };
+		119FBC4829EEEE510041694B /* Notlar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC4729EEEE510041694B /* Notlar.swift */; };
+		119FBC4B29EEF1780041694B /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 119FBC4A29EEF1730041694B /* libsqlite3.tbd */; };
+		119FBC5829EEF1870041694B /* FMResultSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC4E29EEF1860041694B /* FMResultSet.m */; };
+		119FBC5929EEF1870041694B /* FMDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC4F29EEF1860041694B /* FMDatabase.m */; };
+		119FBC5A29EEF1870041694B /* FMDatabaseQueue.m in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC5029EEF1860041694B /* FMDatabaseQueue.m */; };
+		119FBC5B29EEF1870041694B /* FMDatabasePool.m in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC5229EEF1860041694B /* FMDatabasePool.m */; };
+		119FBC5C29EEF1870041694B /* FMDatabaseAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC5529EEF1870041694B /* FMDatabaseAdditions.m */; };
+		119FBC5E29EEF21C0041694B /* notlar.sqlite in Resources */ = {isa = PBXBuildFile; fileRef = 119FBC5D29EEF21C0041694B /* notlar.sqlite */; };
+		119FBC6029EEF2800041694B /* Notlardao.swift in Sources */ = {isa = PBXBuildFile; fileRef = 119FBC5F29EEF2800041694B /* Notlardao.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +61,25 @@
 		119FBC2E29EEE9A40041694B /* NotUygulamasiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NotUygulamasiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		119FBC3229EEE9A40041694B /* NotUygulamasiUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotUygulamasiUITests.swift; sourceTree = "<group>"; };
 		119FBC3429EEE9A40041694B /* NotUygulamasiUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotUygulamasiUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		119FBC4129EEEAF70041694B /* NotHucreTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotHucreTableViewCell.swift; sourceTree = "<group>"; };
+		119FBC4329EEEC3B0041694B /* NotEkleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotEkleViewController.swift; sourceTree = "<group>"; };
+		119FBC4529EEEC500041694B /* NotDetayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotDetayViewController.swift; sourceTree = "<group>"; };
+		119FBC4729EEEE510041694B /* Notlar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlar.swift; sourceTree = "<group>"; };
+		119FBC4A29EEF1730041694B /* libsqlite3.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.tbd; path = usr/lib/libsqlite3.tbd; sourceTree = SDKROOT; };
+		119FBC4C29EEF1850041694B /* NotUygulamasi-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "NotUygulamasi-Bridging-Header.h"; sourceTree = "<group>"; };
+		119FBC4D29EEF1850041694B /* FMDatabasePool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabasePool.h; sourceTree = "<group>"; };
+		119FBC4E29EEF1860041694B /* FMResultSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMResultSet.m; sourceTree = "<group>"; };
+		119FBC4F29EEF1860041694B /* FMDatabase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabase.m; sourceTree = "<group>"; };
+		119FBC5029EEF1860041694B /* FMDatabaseQueue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseQueue.m; sourceTree = "<group>"; };
+		119FBC5129EEF1860041694B /* FMDatabaseAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseAdditions.h; sourceTree = "<group>"; };
+		119FBC5229EEF1860041694B /* FMDatabasePool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabasePool.m; sourceTree = "<group>"; };
+		119FBC5329EEF1860041694B /* FMDB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDB.h; sourceTree = "<group>"; };
+		119FBC5429EEF1860041694B /* FMDatabase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabase.h; sourceTree = "<group>"; };
+		119FBC5529EEF1870041694B /* FMDatabaseAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMDatabaseAdditions.m; sourceTree = "<group>"; };
+		119FBC5629EEF1870041694B /* FMDatabaseQueue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMDatabaseQueue.h; sourceTree = "<group>"; };
+		119FBC5729EEF1870041694B /* FMResultSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMResultSet.h; sourceTree = "<group>"; };
+		119FBC5D29EEF21C0041694B /* notlar.sqlite */ = {isa = PBXFileReference; lastKnownFileType = file; path = notlar.sqlite; sourceTree = "<group>"; };
+		119FBC5F29EEF2800041694B /* Notlardao.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notlardao.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +87,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119FBC4B29EEF1780041694B /* libsqlite3.tbd in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +115,7 @@
 				119FBC2729EEE9A40041694B /* NotUygulamasiTests */,
 				119FBC3129EEE9A40041694B /* NotUygulamasiUITests */,
 				119FBC0F29EEE9A30041694B /* Products */,
+				119FBC4929EEF1730041694B /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +132,7 @@
 		119FBC1029EEE9A30041694B /* NotUygulamasi */ = {
 			isa = PBXGroup;
 			children = (
+				119FBC5D29EEF21C0041694B /* notlar.sqlite */,
 				119FBC1129EEE9A30041694B /* AppDelegate.swift */,
 				119FBC1329EEE9A30041694B /* SceneDelegate.swift */,
 				119FBC1529EEE9A30041694B /* ViewController.swift */,
@@ -106,6 +140,23 @@
 				119FBC1A29EEE9A40041694B /* Assets.xcassets */,
 				119FBC1C29EEE9A40041694B /* LaunchScreen.storyboard */,
 				119FBC1F29EEE9A40041694B /* Info.plist */,
+				119FBC4129EEEAF70041694B /* NotHucreTableViewCell.swift */,
+				119FBC4329EEEC3B0041694B /* NotEkleViewController.swift */,
+				119FBC4529EEEC500041694B /* NotDetayViewController.swift */,
+				119FBC4729EEEE510041694B /* Notlar.swift */,
+				119FBC5429EEF1860041694B /* FMDatabase.h */,
+				119FBC4F29EEF1860041694B /* FMDatabase.m */,
+				119FBC5129EEF1860041694B /* FMDatabaseAdditions.h */,
+				119FBC5529EEF1870041694B /* FMDatabaseAdditions.m */,
+				119FBC4D29EEF1850041694B /* FMDatabasePool.h */,
+				119FBC5229EEF1860041694B /* FMDatabasePool.m */,
+				119FBC5629EEF1870041694B /* FMDatabaseQueue.h */,
+				119FBC5029EEF1860041694B /* FMDatabaseQueue.m */,
+				119FBC5329EEF1860041694B /* FMDB.h */,
+				119FBC5729EEF1870041694B /* FMResultSet.h */,
+				119FBC4E29EEF1860041694B /* FMResultSet.m */,
+				119FBC4C29EEF1850041694B /* NotUygulamasi-Bridging-Header.h */,
+				119FBC5F29EEF2800041694B /* Notlardao.swift */,
 			);
 			path = NotUygulamasi;
 			sourceTree = "<group>";
@@ -125,6 +176,14 @@
 				119FBC3429EEE9A40041694B /* NotUygulamasiUITestsLaunchTests.swift */,
 			);
 			path = NotUygulamasiUITests;
+			sourceTree = "<group>";
+		};
+		119FBC4929EEF1730041694B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				119FBC4A29EEF1730041694B /* libsqlite3.tbd */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,6 +254,7 @@
 				TargetAttributes = {
 					119FBC0D29EEE9A30041694B = {
 						CreatedOnToolsVersion = 14.3;
+						LastSwiftMigration = 1430;
 					};
 					119FBC2329EEE9A40041694B = {
 						CreatedOnToolsVersion = 14.3;
@@ -232,6 +292,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				119FBC1E29EEE9A40041694B /* LaunchScreen.storyboard in Resources */,
+				119FBC5E29EEF21C0041694B /* notlar.sqlite in Resources */,
 				119FBC1B29EEE9A40041694B /* Assets.xcassets in Resources */,
 				119FBC1929EEE9A30041694B /* Main.storyboard in Resources */,
 			);
@@ -258,9 +319,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				119FBC6029EEF2800041694B /* Notlardao.swift in Sources */,
 				119FBC1629EEE9A30041694B /* ViewController.swift in Sources */,
+				119FBC4829EEEE510041694B /* Notlar.swift in Sources */,
+				119FBC4429EEEC3B0041694B /* NotEkleViewController.swift in Sources */,
+				119FBC5929EEF1870041694B /* FMDatabase.m in Sources */,
+				119FBC4229EEEAF70041694B /* NotHucreTableViewCell.swift in Sources */,
+				119FBC5B29EEF1870041694B /* FMDatabasePool.m in Sources */,
+				119FBC5A29EEF1870041694B /* FMDatabaseQueue.m in Sources */,
 				119FBC1229EEE9A30041694B /* AppDelegate.swift in Sources */,
+				119FBC4629EEEC500041694B /* NotDetayViewController.swift in Sources */,
+				119FBC5829EEF1870041694B /* FMResultSet.m in Sources */,
 				119FBC1429EEE9A30041694B /* SceneDelegate.swift in Sources */,
+				119FBC5C29EEF1870041694B /* FMDatabaseAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,6 +506,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -452,6 +524,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bartukaraa.NotUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotUygulamasi/NotUygulamasi-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -462,6 +536,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -479,6 +554,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = bartukaraa.NotUygulamasi;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "NotUygulamasi/NotUygulamasi-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
